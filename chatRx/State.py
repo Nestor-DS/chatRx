@@ -3,7 +3,7 @@ import os
 import asyncio
 from openai import AsyncOpenAI, OpenAIError, RateLimitError
 
-# Establece tu API key directamente en el código para pruebas
+# Set your API key directly in the code for testing purposes.
 os.environ["OPENAI_API_KEY"] = ''
 
 class State(rx.State):
